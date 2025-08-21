@@ -1,0 +1,29 @@
+.input{
+    width: 500px;
+    height: 200px;
+    justify-self: center;
+    position: relative;
+}
+#input{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 10px;
+}
+#num-word{
+    position: absolute;
+    right: 0%;
+    bottom: -15%;
+}
+.err{
+    color: red;
+   border: 2px solid red;
+}
+.err:focus{
+    color: red;
+   border: 2px solid red ;
+   outline: none;
+}
+.errNum{
+    color: red;
+}
